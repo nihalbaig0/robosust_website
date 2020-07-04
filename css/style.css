@@ -4,6 +4,14 @@ body {
 
 }
 
+h1{
+	margin-bottom: .5rem;
+	font-family: inherit;
+	font-weight: 500;
+	line-height: 1.5;
+	color:inherit;
+}
+
 /*<-------------------NAVIGATION BAR--------------------->*/
 .navbar {
 	border-bottom: #008ed6 3px solid;
@@ -13,7 +21,7 @@ body {
 /*<-------------------HOME SECTION--------------------->*/
 
  #home-section {
- 	background: url('../img/robo.JPG') no-repeat center center fixed;
+ 	background: url('robo.JPG') no-repeat center center fixed;
  	
  	background-size: cover;
  	
@@ -49,13 +57,23 @@ body {
 .ft{
 	
 	font-color:white;
-	font-size: 3rem;
+	font-size: 2rem;
+	font-weight: 300;
+	font-family: inherit;
+}
+
+.lead
+{
+	font-weight: 300;
+	font-size: 1.5rem;
+	color: white;
+	font-family: 'Lato', sans-serif;
 }
 
 .sec {
-	background: #333;
+	background: #333333;
 	
-	min-height: 500px;
+	min-height: 700px;
 	width: 90%;
 	margin:auto;
 }
@@ -76,5 +94,13 @@ hr
 }
 
 .margin_video{
-	margin-top: 3rem;
+	margin-top: 5rem;
+}
+
+.inner_text{
+	margin-top: 4rem;
+}
+
+.space {
+	margin-top: 1.25rem;
 }
