@@ -21,7 +21,7 @@ h1{
 /*<-------------------HOME SECTION--------------------->*/
 
  #home-section {
- 	background: url('robo.JPG') no-repeat center center fixed;
+ 	background: url('../img/robo.JPG') no-repeat center center fixed;
  	
  	background-size: cover;
  	
