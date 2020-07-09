@@ -22,9 +22,9 @@ h1{
 
  #home-section {
  	background: url('../img/robo.JPG') no-repeat center center fixed;
- 	
+
  	background-size: cover;
- 	
+
  	min-height: 700px;
  }
 
@@ -55,7 +55,7 @@ h1{
 /*<-------------------ABOUT US--------------------->*/
 
 .ft{
-	
+
 	font-color:white;
 	font-size: 2rem;
 	font-weight: 300;
@@ -72,7 +72,7 @@ h1{
 
 .sec {
 	background: #333333;
-	
+
 	min-height: 700px;
 	width: 90%;
 	margin:auto;
@@ -103,4 +103,92 @@ hr
 
 .space {
 	margin-top: 1.25rem;
+}
+/*<---------------------Projects---------------->*/
+
+#projects{
+  margin-top:2rem;
+	background: url('../img/pool.JPG') no-repeat center center fixed ;
+	min-height: 700px;
+  background-size: cover;
+  overflow: hidden;
+}
+#mg-project{
+	color:black;
+	opacity:0.9;
+	font-weight: bold;
+	margin-top: 1rem;
+	padding-top:0;
+	font-family:sans-serif;
+	font-size:min(7vw,40px);
+}
+#c-project{
+	color:black;
+	opacity:1;
+	font-size:min(4vw,20px);
+
+}
+
+.bg-text {
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+
+  position: relative;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  text-align: center;
+	margin-top: -350px;
+	min-height: 400px;
+	padding:2rem;
+	padding-bottom:3rem;
+}
+.carousel{
+ margin:auto;
+}
+.wrapper{
+	max-width:800px;
+  width:100%;
+
+}
+.caption-one{
+
+	position:relative;
+	float:left;
+	background-color: rgba(0,0,0, 0.7);
+	border:1px solid #000000;
+	margin:0;
+	padding:0;
+
+}
+.rstxt{
+	color:white;
+	font-weight: bold;
+	font-family:inherit;
+	position:relative;
+	text-align:left;
+	font-size:min(3.5vw,15px);
+	padding:5px;
+	vertical-align: baseline;
+
+}
+
+}
+.carousel-caption{
+	text-align:left;
+	width:550px;
+
+}
+
+.container{
+	padding-right: 15px;
+	padding-left: 15px;
+	overflow: hidden;
+}
+.imge{
+
+	min-width: 250px;
+	min-height: 200px;
 }
