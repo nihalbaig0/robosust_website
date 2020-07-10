@@ -210,3 +210,53 @@ hr
 	padding-left: 15px;
 	overflow: hidden;
 }
+
+.imge{
+
+	min-width: 250px;
+	min-height: 200px;
+}
+
+/*Fixed background*/
+#fixed {
+	background: url('robo.JPG');
+	min-height: 500px;
+
+}
+
+.parallax {
+	background: url('../img/intro2.jpg') no-repeat center;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 500px;
+	opacity: .9;
+}
+
+.parallax hr {
+  border-top: 2px solid white;
+  width: 80%;
+  margin-bottom: 1rem;
+}
+
+.padding {
+  padding-bottom: 2rem;
+}
+.welcome {
+  width: 75%;
+  margin: 0 auto;
+  padding-top: 2rem;
+}
+
+.welcome hr {
+  border-top: 2px solid #b4b4b4;
+  width: 95%;
+  margin-top: .3rem;
+  margin-bottom: 1rem;
+}
+
+.half {
+	position: relative;
+	top: 30%;
+
+}
+
