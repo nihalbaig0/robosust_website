@@ -108,13 +108,14 @@ hr
 
 #projects{
   margin-top:2rem;
-	background: url('../img/pool.JPG') no-repeat center center fixed ;
+	background: url('../img/back.JPG') no-repeat center center fixed ;
 	min-height: 700px;
   background-size: cover;
   overflow: hidden;
+
 }
 #mg-project{
-	color:black;
+	color:white;
 	opacity:0.9;
 	font-weight: bold;
 	margin-top: 1rem;
@@ -123,16 +124,15 @@ hr
 	font-size:min(7vw,40px);
 }
 #c-project{
-	color:black;
+	color:white;
 	opacity:1;
 	font-size:min(4vw,20px);
 
 }
 
 .bg-text {
-  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  background-color: rgba(0,0,0, 0.3); /* Black w/opacity/see-through */
   color: white;
-
   position: relative;
   top: 100%;
   left: 50%;
