@@ -107,12 +107,27 @@ hr
 /*<---------------------Projects---------------->*/
 
 #projects{
-  margin-top:2rem;
-	background: url('../img/back.JPG') no-repeat center center fixed ;
-	min-height: 700px;
-  background-size: cover;
-  overflow: hidden;
 
+	background: url('../img/back.JPG') no-repeat center center fixed ;
+  background-size: cover;
+  height:700px;
+
+}
+@media screen and (max-width:600px)
+{
+	#projects
+	{
+		height:600px;
+	}
+	.bg-text{
+		top:150px;
+
+	}
+	.imge{
+
+		min-width: 320px;
+		min-height: 250px;
+	}
 }
 #mg-project{
 	color:white;
@@ -132,26 +147,34 @@ hr
 
 .bg-text {
   background-color: rgba(0,0,0, 0.3); /* Black w/opacity/see-through */
+
   color: white;
   position: relative;
-  top: 100%;
+  top: 350px;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 2;
   width: 80%;
+	min-width:320px;
   text-align: center;
-	margin-top: -350px;
+	margin-top: 0px;
 	min-height: 400px;
-	padding:2rem;
-	padding-bottom:3rem;
+	padding:1rem;
+  padding-bottom:2rem; 
 }
 .carousel{
  margin:auto;
+ width:100%;
 }
 .wrapper{
+
 	max-width:800px;
   width:100%;
 
+
+}
+.new{
+	background-color: white;
 }
 .caption-one{
 
@@ -186,9 +209,4 @@ hr
 	padding-right: 15px;
 	padding-left: 15px;
 	overflow: hidden;
-}
-.imge{
-
-	min-width: 250px;
-	min-height: 200px;
 }
