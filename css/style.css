@@ -8,7 +8,6 @@ body {
 img {
     max-width: 100%;
   }
-  
 /* h1{
 	margin-bottom: .5rem;
 	font-family: inherit;
@@ -64,7 +63,7 @@ img {
 	font-color:white;
 	font-size: 2rem;
 	font-weight: 300;
-	
+
 }
 
 .lead
@@ -78,8 +77,8 @@ img {
 	background: #333333;
 
 	min-height: 700px;
-	/* width: 90%;
-	margin:auto; */
+	/*width: 90%;
+	margin:auto;*/
 }
 hr
 {
@@ -154,8 +153,7 @@ hr
 
 .bg-text {
   background-color: rgba(0,0,0, 0.3); /* Black w/opacity/see-through */
-
-  color: white;
+	color: white;
   position: relative;
   top: 350px;
   left: 50%;
@@ -167,7 +165,7 @@ hr
 	margin-top: 0px;
 	min-height: 400px;
 	padding:1rem;
-  padding-bottom:2rem; 
+  padding-bottom:2rem;
 }
 .carousel{
  margin:auto;
@@ -195,13 +193,12 @@ hr
 }
 .rstxt{
 	color:white;
-	font-weight: bold;
 	font-family:inherit;
 	position:relative;
 	text-align:left;
 	font-size:min(3.5vw,15px);
-	padding:5px;
-	vertical-align: baseline;
+	padding:3px;
+	vertical-align:inherit;
 
 }
 
@@ -222,6 +219,8 @@ hr
 
 	min-width: 250px;
 	min-height: 200px;
+	max-width: 1000px;
+	max-height: 650px;
 }
 
 /*Fixed background*/
@@ -312,6 +311,8 @@ hr
 
 }
 
+}
+
 @media screen and (max-width:600px)
 {
 	table {
@@ -319,4 +320,25 @@ hr
     overflow-x: auto;
     white-space: nowrap;
 }
+} 
+
+
+/*<---------------Some MOMENTS------------>*/
+#moments{
+  background-size: auto;
+  height:400px;
+}
+
+#moments-head{
+	color:white;
+	opacity:0.7;
+	margin: 1.5rem;
+	font-family: sans-serif ;
+	font-size:min(4vw,65px);
+}
+
+.m-caption{
+  position:relative;
+	float:left;
+	background-color: rgba(0,0,0, 0.5);
 }
