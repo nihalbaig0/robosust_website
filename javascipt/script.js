@@ -21,7 +21,7 @@ let rows = 5;
 function DisplayList (items, wrapper , rows_per_page, page) {
 	wrapper.innerHTML = "";
 	page--;
-	
+
 	let start = rows_per_page * page;
 	let end = start + rows_per_page;
 	let paginatedItems = items.slice(start, end);
@@ -37,8 +37,8 @@ function DisplayList (items, wrapper , rows_per_page, page) {
 			  <td>${item.position}</td>
 
 		</tr>	`
-		
-				
+
+
 	}
 }
 
