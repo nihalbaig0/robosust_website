@@ -10,6 +10,8 @@ const products = [
     {team_name:'Flash SUST', contest:'Mecceleration 2019',segment:'Robonix V2.0',position:'Runners Up'},
 ]
 
+
+
 const tbody = document.querySelector('.table_body');
 const pagination_element = document.getElementById('pagination');
 
