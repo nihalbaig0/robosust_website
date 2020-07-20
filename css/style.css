@@ -4,6 +4,7 @@ body {
 	/* font-family: 'Poppins', sans-serif; */
 	/* font-family: 'Roboto Condensed', sans-serif; */
 	font-family: 'Source Sans Pro', sans-serif;
+  overflow-y: scroll;
 }
 img {
     max-width: 100%;
@@ -401,28 +402,36 @@ padding-bottom:20px;
   font-size:45px;
 	overflow-wrap: break-word;
 	letter-spacing: 12px;
+	padding-bottom: 30px;
+}
+.container{
+
+	padding: 0;
 }
 .con{
-	margin-top:90px;
+
 	width:100%;
 	height:auto;
+	text-align: center;
 	overflow: hidden;
+	margin:0;
+  padding: 0;
 }
-
 .item{
 	background: white;
 	height:350px;
 	width: 250px;
-	margin-right: inherit;
+	margin:0;
+	padding: 0;
 	cursor: pointer;
 	-webkit-transition: background 1s;
-	border:2px;
+	border:2px solid white;
 	border-color: white;
 
 /*box-shadow: 	0 4px 8px 0 rgba(255, 255, 255, 1), 0 6px 20px 0 rgba(255, 255, 255, 1);*/
 }
 .owl-carousel{
-	margin-left: 35px;
+ width: 100%;
 }
 .img-area{
  height:220px;
@@ -472,14 +481,46 @@ height: 200px;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-	border: 2px;
-	size:5px;
+	border:1px solid white;
+	text-align: center;
+	width:30px;
+	height:30px;
 }
 
 .owl-prev {
-  left: -2rem;
+  left: -3.5rem;
 }
 
 .owl-next {
-  right:2rem;
+  right: 2.0rem;
+}
+@media only screen and (min-width:771px) {
+	.owl-carousel{
+	 margin-left: 45px;
+	}
+	.owl-dots{
+		margin-left: -80px;
+	}
+}
+@media only screen and (max-width:770px) and (min-width:500px) {
+	.owl-carousel{
+	 margin-left:140px;
+	}
+	.owl-nav{
+		visibility: true;
+	}
+	.owl-dots{
+		margin-left: -250px;
+	}
+
+
+}
+@media only screen and (max-width:500px)
+{
+	.owl-carousel{
+		margin-left:100px;
+	}
+	.owl-dots{
+		margin-left: -180px;
+	}
 }
