@@ -163,12 +163,12 @@ hr
   transform: translate(-50%, -50%);
   z-index: 2;
   width: 80%;
-	min-width:320px;
+  min-width:320px;
   text-align: center;
-	margin-top: 0px;
-	min-height: 400px;
-	padding:1rem;
-  padding-bottom:2rem;
+  margin-top: 0px;
+  min-height: 250px;
+  padding:1rem;
+  padding-bottom:1rem;
 }
 .carousel{
  margin:auto;
@@ -199,7 +199,7 @@ hr
 	font-family:inherit;
 	position:relative;
 	text-align:left;
-	font-size:min(3.5vw,15px);
+	font-size:1.5vw;
 	padding:3px;
 	vertical-align:inherit;
 
@@ -537,14 +537,18 @@ height: 200px;
 /*<---------------Some MOMENTS------------>*/
 #moments{
   background-size: auto;
-  height:850px;
+  height:800px;
 }
 
 #moments-head{
-	color:white;
-	opacity:0.7;
-	margin: 1.5rem;
-	font-size:min(4vw,65px);
+color:white;
+opacity: 0.8;
+margin-top: 70px;
+text-align: center;
+ font-family: "lato", sans-serif;
+font-size:45px;
+overflow-wrap: break-word;
+letter-spacing: 11px;
 }
 
 .m-caption{
@@ -559,12 +563,13 @@ height: 200px;
 #quotes{
 	background-color:white;
 	background-size: auto;
-	height: 1050px;
+	height: 1100px;
 }
 
 
 .q-img{
-	height: 350px;
+	max-width: 50%;
+	height: auto;
   overflow: hidden;
   border-radius: 50%;
   position: relative;
@@ -574,30 +579,33 @@ height: 200px;
 .q-text{
 	color: black;
 	font-style: italic;
-	font-size:min(4vw,25px);
-	max-width: 500px;
+	font-size: 1.8vw;
+	max-width: 50%;
 	text-align:left;
 	margin-top: 100px;
-	margin-left: 50%;
+	margin-left: 55%;
 	position:relative;
 }
 
 .q-img-2{
-	height: 350px;
+	max-width: 50%;
+	height: auto;
   overflow: hidden;
   border-radius: 50%;
   position:relative;
 	float: right;
 }
 
+
 .q-text-2{
 	color: black;
 	font-style: italic;
-	font-size:min(4vw,25px);
-	max-width: 500px;
+	font-size: 1.8vw;
+	max-width: 50%;
 	text-align: left;
 	margin-top: 150px;
 }
+
 
 /* footer */
 .site-footer
