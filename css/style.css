@@ -6,7 +6,7 @@ body {
 img {
     max-width: 100%;
   }
-  
+
 /* h1{
 	margin-bottom: .5rem;
 	font-family: inherit;
@@ -322,17 +322,17 @@ hr
 	white-space: nowrap; /* Keeps the content on a single line */
 	margin: 0 auto; /* Gives that scrolling effect as the typing happens */
 	letter-spacing: .15em; /* Adjust as needed */
-	animation: 
+	animation:
 	  typing 3.5s steps(30, end),
 	  blink-caret .5s step-end infinite;
   }
-  
+
   /* The typing effect */
   @keyframes typing {
 	from { width: 0 }
 	to { width: 100% }
   }
-  
+
   /* The typewriter cursor effect */
   @keyframes blink-caret {
 	from, to { border-color: transparent }
@@ -437,9 +437,7 @@ padding-bottom:20px;
 
 /*box-shadow: 	0 4px 8px 0 rgba(255, 255, 255, 1), 0 6px 20px 0 rgba(255, 255, 255, 1);*/
 }
-.owl-carousel{
-	margin-left: 35px;
-}
+
 .img-area{
  height:220px;
  transition: height 0.7s;
@@ -466,6 +464,7 @@ padding-bottom:20px;
  .item:hover{
 	background-color:rgba(0,0,0,0.3);
 	-webkit-transition: background 1s;
+	border: 1px solid white;
 }
 .item:hover  .lm{
 	opacity:0;
@@ -483,25 +482,43 @@ padding-bottom:20px;
 .item:hover .img-area{
 height: 200px;
 }
-.owl-prev,
-.owl-next {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-	border: 2px;
-	size:5px;
+@media screen and (min-width:350px) and (max-width:399px)
+{
+	.owl-carousel{
+		margin-left: 36px;
+	}
+	.owl-dots{
+		margin-left:-99px;
+	}
 }
-
-.owl-prev {
-  left: -2rem;
+@media screen and (min-width:400px) and (max-width:499px)
+{
+	.owl-carousel{
+		margin-left: 80px;
+	}
+	.owl-dots{
+		margin-left:-155px;
+	}
 }
-
-.owl-next {
-  right:2rem;
+@media screen and (min-width:500px) and (max-width:770px)
+{
+	.owl-carousel{
+   margin-left: 110px;
+	}
+	.owl-dots{
+		margin-left:-200px;
+	}
 }
-
-
-
+@media screen and (min-width:771px)
+{
+	.owl-carousel{
+		margin-left: 35px;
+	}
+	.owl-dots{
+		margin-left: -67px;
+	}
+}
+/**********/
 
 @media screen and (max-width:600px)
 {
