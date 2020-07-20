@@ -77,14 +77,18 @@
           <div class="row">
             <div class="col-12 d-flex justify-content-center">
               <h1 class="display-4">
+                <strong>RoboSUST</strong>
+              </h1>
+            </div>
+            <div class="col-12 d-flex justify-content-center mt-3">
+              <h1 class="display-4">
                 Where <strong>Creation</strong> Happens
               </h1>
-
-
             </div>
             <div class="col-12 d-flex d-flex justify-content-center">
               <div class="text-center mt-5">
-                <button type="button" class="btn btn-xl btn-outline-light waves-effect ">Explore More
+                <button type="button" class="btn btn-xl btn-outline-light waves-effect ">
+                  <a href="#about-us">Explore More</a>
               </button>
                </div>
             </div>
@@ -438,15 +442,15 @@
 </div>
 
 <!-----------------------------Quotes------------------------>
-<div id="quotes">
+<div id="quotes" >
   <div class="container">
     <div class="row">
 
-      <div class="col-sm">
+      <div class="col-12">
         <img class="q-img" src="img/ZafarSir3.jpg" align="left">
       </div>
 
-      <div class="col-sm">
+      <div class="col-12">
         <p class="q-text">
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit,
           sed do eiusmod tempor incididunt ut labore et dolore
@@ -464,7 +468,7 @@
 
       <div class="w-100"></div>
 
-      <div class="col-sm">
+      <div class="col-12">
         <img class="q-img-2" src="img/BS4.jpeg" align= "right">
         <p class="q-text-2">
           "Duis aute irure dolor in reprehenderit in voluptate
@@ -489,7 +493,7 @@
     <div class="container">
       <div class="row text-center">
         <div class="col-sm-12 col-md-12 ">
-          <h6>About</h6>
+          <h6>Contact Us</h6>
           <p class="text-justify">
                 RoboSUST is always looking for new opportunities to build a better future through robotics.
                 If you have any idea or innovation you want to talk about.
@@ -610,6 +614,17 @@ $('.owl-carousel').owlCarousel({
       });
     }
   });
+</script>
+<script>
+  $(document).ready(function () {
+    var ownVideos = $("iframe");
+    $.each(ownVideos, function (i, video) {                
+        var frameContent = $(video).contents().find('body').html();
+        if (frameContent) {
+            $(video).contents().find('body').html(frameContent.replace("autoplay", ""));
+        }
+    });
+});
 </script>
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script>
